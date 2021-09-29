@@ -164,7 +164,7 @@ void MovePlayer(int XDirection, int YDirection)
 
 bool Goal()
 {
-	return Map[PlayerY][PlayerX] == 9 ? true false;
+	return Map[PlayerY][PlayerX] == 9 ? true : false;
 
 	//if (Map[PlayerY][PlayerX] == 9)
 	//{
